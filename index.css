@@ -26,12 +26,12 @@ body{
     height: 100%;
     background: #000;
     backface-visibility: hidden;
-    transform: rotateX(0deg);
+    transform: rotateY(0deg);
     transition: 2s;
     border-radius: 20px;
 }
 .card:hover .front-side{
-    transform: rotateX(-180deg);
+    transform: rotateY(180deg);
 }
 
 .card .back-side{
@@ -44,11 +44,11 @@ body{
     /* background: url(./images/mid-back.svg);#4dd0e1  #f5f8fa*/
     background: linear-gradient( #0072b2,#4dd0e1);
     backface-visibility: hidden;
-    transform: rotateX(180deg);
+    transform: rotateY(-180deg);
     transition: 2s;
 }
 .card:hover .back-side{
-    transform: rotateX(0deg);
+    transform: rotateY(0deg);
 }
 .details{
     text-align: center;
